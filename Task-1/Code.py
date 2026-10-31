@@ -6,7 +6,6 @@ consultation = float(input("Enter consultation charges: ₹"))
 diagnostic = float(input("Enter diagnostic charges: ₹"))
 treatment = float(input("Enter treatment charges: ₹"))
 
-
 if min(consultation, diagnostic, treatment) < 0:
     print("Invalid input: Charges cannot be negative.")
 
