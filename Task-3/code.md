@@ -48,59 +48,9 @@ Sponsorship Shortfall: 0
 Break-Even Registrations: 17
 ```
 
-## 7. Break-Even Calculation
 
-The minimum number of registrations is calculated using:
 
-\\[ BE = \left\lceil \frac{F-S}{C-V} \right\rceil \\]
-
-Where:
-
-- \\(F\\) = Fixed cost (venue + equipment)
-- \\(S\\) = Sponsorship amount
-- \\(C\\) = Contribution per participant
-- \\(V\\) = Variable cost per participant
-
-Revenue
-
-Total cost
-
-Loss
-
-Profit
-
-10203040506050010001500Quantity$Q\*
-
-\\(Q^\*=\frac{F}{p-v}=\frac{\text{600}}{\text{35}-\text{15}}=\text{30}\\)
-
-Q\* is the break-even quantity where total revenue matches total cost.
-
-\\(F\\)
-
-$
-
-\\(v\\)
-
-$/unit
-
-\\(p\\)
-
-$/unit
-
-Give feedback
-
-For the sample:
-
-- Fixed cost = ₹15,000
-- Sponsorship = ₹10,000
-- Contribution = ₹400
-- Variable cost = ₹300
-
-\\[ BE = \frac{15000-10000}{400-300}=50 \\]
-
-Correct break-even registrations: 50.
-
-## 8. Mermaid Flowchart Code
+## 7. Mermaid Flowchart Code
 
 ```mermaid
 
@@ -125,7 +75,7 @@ flowchart TD
 
 ```
 
-## 9. Result
+## 8. Result
 
 The Python program successfully calculates campus event expenses, participant contributions, sponsorship shortfalls, and minimum break-even registrations based on the given financial details.
 
